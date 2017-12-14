@@ -24,13 +24,13 @@ function prependDriver(name){
 }
 
 function removeLastDriver(){
-  var newArray = drivers.slice();
+  const newArray = drivers.slice();
   newArray.pop();
   return newArray;
 }
 
 function removeFirstDriver(){
-  var newArray = drivers.slice();
+  const newArray = drivers.slice();
   newArray.shift();
   return newArray;
 }
