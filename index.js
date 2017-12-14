@@ -16,3 +16,9 @@ function appendDriver(name){
   newArray.push("Broom")
   return newArray;
 }
+
+function prependDriver(name){
+  var newArray = drivers.slice();
+  newArray.unshift("Arnold");
+  return newArray;
+}
