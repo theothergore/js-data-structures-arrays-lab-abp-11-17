@@ -22,3 +22,9 @@ function prependDriver(name){
   newArray.unshift("Arnold");
   return newArray;
 }
+
+function removeLastDriver(){
+  var newArray = drivers.slice();
+  newArray.pop();
+  return newArray;  
+}
