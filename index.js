@@ -13,7 +13,7 @@ function destructivelyRemoveFirstDriver(){
 }
 function appendDriver(name){
   var newArray = drivers.slice();
-  newArray.push("Broom")
+  newArray.push("Broom");
   return newArray;
 }
 
