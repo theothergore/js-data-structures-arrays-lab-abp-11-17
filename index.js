@@ -12,13 +12,13 @@ function destructivelyRemoveFirstDriver(){
   drivers.shift();
 }
 function appendDriver(name){
-  var newArray = drivers.slice();
+  const newArray = drivers.slice();
   newArray.push("Broom");
   return newArray;
 }
 
 function prependDriver(name){
-  var newArray = drivers.slice();
+  const newArray = drivers.slice();
   newArray.unshift("Arnold");
   return newArray;
 }
